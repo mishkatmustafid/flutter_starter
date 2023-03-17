@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+//// This class provides relative sizes for screen of all sizes
+/// A developer can use
+
 class SizeConfig {
   static late MediaQueryData _mediaQueryData;
   static late double screenWidth;
