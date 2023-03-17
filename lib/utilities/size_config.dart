@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 //// This class provides relative sizes for screen of all sizes
-/// A developer can use
+/// A developer can use the functions to get proportional size for their own device
+/// that'll be at the same position for other devices of different screen sizes as well
 
 class SizeConfig {
   static late MediaQueryData _mediaQueryData;
