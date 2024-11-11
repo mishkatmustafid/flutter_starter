@@ -8,7 +8,8 @@
 .buildlog/
 .history
 .svn/
-README.md
+migrate_working_dir/
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -26,13 +27,9 @@ README.md
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.packages
 .pub-cache/
 .pub/
 /build/
-
-# Web related
-lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols

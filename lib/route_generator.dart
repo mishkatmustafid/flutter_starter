@@ -15,7 +15,7 @@ class RouteGenerator {
         // You can also throw an exception while in development.
         return _errorRoute();
       default:
-        // If there is no such named route in the switch statement,
+      // If there is no such named route in the switch statement,
         return _errorRoute();
     }
   }
@@ -23,8 +23,8 @@ class RouteGenerator {
   static Route<dynamic> _errorRoute() {
     return MaterialPageRoute(
         builder: (_) => Scaffold(
-              appBar: AppBar(title: Text('Error')),
-              body: Center(child: Text('ERROR!!')),
-            ));
+          appBar: AppBar(title: const Text('Error')),
+          body: const Center(child: Text('ERROR!!')),
+        ));
   }
 }

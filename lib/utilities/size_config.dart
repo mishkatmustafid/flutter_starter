@@ -24,14 +24,14 @@ double getProportionateScreenHeight(double inputHeight) {
   double screenHeight = SizeConfig.screenHeight;
   // 896 is the layout height that designer use
   // or you can say iPhone 11
-  // I'm using 800 for realme 7i
-  return (inputHeight / 800.0) * screenHeight;
+  // I'm using 2412 for realme C67
+  return (inputHeight / 2412.0) * screenHeight;
 }
 
 // Get the proportionate width as per screen size
 double getProportionateScreenWidth(double inputWidth) {
   double screenWidth = SizeConfig.screenWidth;
   // 414 is the layout width that designer use
-  // I'm using 360 for realme 7i
-  return (inputWidth / 360.0) * screenWidth;
+  // I'm using 1080 for realme C67
+  return (inputWidth / 1080.0) * screenWidth;
 }
